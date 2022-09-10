@@ -1,0 +1,207 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #5688C7;
+    --botao-secundario: #84DCC6;
+    --cor-de-fundo: #102542;
+    --fonte-principal : "Inter";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.principal {
+    background-image: url(imagens-futebol/champions-league.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    align-items: center;
+    text-align: center;
+}
+
+.container__div {
+    grid-column: 2;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo__champions {
+    width: 200px;
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    border: 2px solid var(--branco-principal);
+    margin-bottom: 1em;
+}
+
+.botao__secundario {
+    background-color: var(--botao-secundario);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+    font-weight: bold;
+}
+
+
+.container__seg {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.secundario__imagem {
+    width: 22vw;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 12em;
+    height: 25em;
+}
+
+.descricao__titulo {
+    color: orange;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.descricao__texto {
+    text-align: center;
+}
+
+.cor__newport {
+    color: #FCB406;
+}
+
+.terciario {
+    justify-items: end;
+}
+
+.cor__qpr {
+    color: var(--branco-principal);
+}
+
+.cor__forest {
+    color: #B5DC16;
+}
+
+.cor__argyle {
+    color: #00c597;
+}
+
+.cor__burn {
+    color: #5ed4ff;
+}
+
+.cor__sunderland {
+    color: #EB172B;
+}
+
+.cor__castle {
+    color: #F0B83D;
+}
+
+/*BIG SIX*/
+
+.big__six {
+    text-align: center;
+}
+
+.big__titulo {
+    font-size: 32px;
+}
+
+.big__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.big__six--ajuste {
+    width: 5vw;
+}
+
+.item__caixa {
+    margin: 5em 1.5em;
+}
+
+.item__lista {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*OUTROS TIMEs*/
+
+.times__alternativos {
+    text-align: center;
+}
+
+.outos__times--titulo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.outros__times--texto {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.outros__times {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+}
+
+.outros__times li {
+    margin: 0 1em;
+}
+
+.logo__icon--times {
+    width: 3vw;
+}
+
+/*FOOTER*/
+
+.footer__premier {
+    text-align: center;
+}
+
+.logo__premier {
+    width: 5vw;
+    margin-bottom: 1em;
+}
+
+.premier__copy {
+    font-size: 0.5em;
+    margin-bottom: 2em;
+}
